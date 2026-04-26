@@ -1,0 +1,56 @@
+{
+  "name": "tipo-cambio-peru",
+  "version": "0.1.0",
+  "description": "Tipo de cambio oficial del Perú: BCRP, SBS y SUNAT en una sola llamada. TypeScript + ESM, sin dependencias externas.",
+  "license": "MIT",
+  "author": "Edson Camé <edsoncame@securex.pe> (https://securex.pe)",
+  "homepage": "https://github.com/Edsoncame/tipo-cambio-peru",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Edsoncame/tipo-cambio-peru.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Edsoncame/tipo-cambio-peru/issues"
+  },
+  "keywords": [
+    "peru",
+    "tipo-de-cambio",
+    "exchange-rate",
+    "bcrp",
+    "sbs",
+    "sunat",
+    "fintech",
+    "currency",
+    "dolar"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "example": "tsx src/example.ts",
+    "test": "tsx --test src/index.test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
