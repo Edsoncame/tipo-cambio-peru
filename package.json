@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Tipo de cambio oficial del Perú: BCRP, SBS y SUNAT en una sola llamada. TypeScript + ESM, sin dependencias externas.",
   "license": "MIT",
-  "author": "Edson Camé <edsoncame@securex.pe> (https://securex.pe)",
+  "author": "Edson Campaña Meléndez <edsoncame@securex.pe> (https://securex.pe)",
   "homepage": "https://github.com/Edsoncame/tipo-cambio-peru",
   "repository": {
     "type": "git",

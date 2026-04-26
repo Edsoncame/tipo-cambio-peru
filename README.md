@@ -101,4 +101,4 @@ Si te dedicas a fintech en Perú o estás construyendo una app con TC, esto te a
 
 ## Licencia
 
-[MIT](LICENSE) © Edson Camé / Securex 2026
+[MIT](LICENSE) © Edson Campaña Meléndez / Securex 2026
