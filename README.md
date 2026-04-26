@@ -76,7 +76,7 @@ Convierte entre PEN y USD usando una tasa dada. Aplica `buy` para USD→PEN y `s
 ## Roadmap
 
 - [x] v0.1: Cliente BCRP (interbancario y bancario)
-- [ ] v0.2: Scraping de casas digitales (Securex, Rextie, Kambista, Dollarhouse) — con respeto explícito a `robots.txt` y rate limits razonables
+- [ ] v0.2: Scraping del sector cambiario digital peruano — con respeto explícito a `robots.txt` y rate limits razonables
 - [ ] v0.3: Cliente SBS (TC oficial publicado por SBS)
 - [ ] v0.4: Cliente SUNAT (TC contable mensual)
 - [ ] v0.5: Paridad en Python (`tipo-cambio-peru` PyPI package)
@@ -98,6 +98,15 @@ npm run test      # suite de tests
 Securex (https://securex.pe) procesa miles de operaciones de cambio diarias en Perú. Internamente teníamos tres scrapers distintos para BCRP, SBS y SUNAT. Decidimos consolidarlos y liberar el resultado.
 
 Si te dedicas a fintech en Perú o estás construyendo una app con TC, esto te ahorra una semana de scraping defensivo. Si querés cambiar dólares directamente con TC competitivo y operación en feriados, [securex.pe](https://securex.pe) es nuestra app.
+
+## Librerías hermanas
+
+Junto con `tipo-cambio-peru`, Securex mantiene en open source dos librerías más para el ecosistema dev peruano:
+
+- [**dni-validator-peru**](https://github.com/Edsoncame/dni-validator-peru) — Validación offline de DNI y RUC con módulo-11 SUNAT.
+- [**feriados-peru**](https://github.com/Edsoncame/feriados-peru) — Calendario de feriados nacionales + utilidades de días hábiles.
+
+Las tres son zero-dependency, ESM-first y MIT.
 
 ## Licencia
 
